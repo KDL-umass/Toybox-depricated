@@ -1,0 +1,4 @@
+target
+Cargo.lock
+ctoybox/toybox/toybox/__pycache__
+ctoybox/toybox/toybox/envs/atari/__pycache__

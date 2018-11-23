@@ -1,11 +1,7 @@
-[package]
-name = "toybox-core"
-version = "0.1.0"
-authors = ["John Foley <jfoley@cs.umass.edu>"]
-
-[dependencies]
-failure = "*"
-serde = "*"
-serde_json = "*"
-serde_derive = "*"
-png = "*"
+[workspace]
+members = [
+  "core",
+  "toybox",
+  "ctoybox",
+  "breakout"
+]

@@ -1,0 +1,19 @@
+[package]
+name = "ctoybox"
+version = "0.1.0"
+authors = ["Emma 'Frank' Tosch <etosch@cs.umass.edu>"]
+
+[lib]
+name = "ctoybox"
+crate-type = ["cdylib"]
+
+[dependencies]
+failure = "0.1"
+libc = "0.2"
+breakout = {path = "../breakout", version="*"}
+toybox = {path = "../toybox", version="*"}
+
+[dependencies.toybox-core]
+version = "*"
+path = "../core"
+

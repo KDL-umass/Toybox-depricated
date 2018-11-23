@@ -193,7 +193,6 @@ pub enum Drawable {
         w: i32,
         h: i32,
     },
-    /// For space_invaders.
     DestructibleSprite(SpriteData),
     /// For static images.
     StaticSprite {
