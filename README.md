@@ -23,18 +23,19 @@ If you use this code, or otherwise are inspired by our white-box testing approac
 
 # Setup and Dependencies
 
-## Target Rust Version
+## Target Rust Version (1.28)
 
-For building on older GPU clusters, we target rustc 1.28:
+For this project, we are currently target rustc 1.28, here's how to make sure you're using that version (important for contributing) any newer version should also build the code just fine.
+
 ```bash
 rustup override set 1.28.0
 ```
 
 ## Mac Dev Setup Instructions
 * `brew install rustup`
+* `source $HOME/.cargo/env`
 * `rustup-init` with the default install
 * clone this repo
-* `source $HOME/.cargo/env`
 
 ## Lints and Formatting in Rust
 
@@ -57,8 +58,9 @@ Tensorflow, OpenAI Gym, OpenCV, and other libraries may or may not break with va
 
 # Build
 
-`cargo build`
+Compile code and dependencies (takes a while the first time) in release mode.
 
+`cargo build --release`
 
 # Developing New Games
 
