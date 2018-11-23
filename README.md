@@ -1,4 +1,4 @@
-# The Machine Learning Toybox
+# The Reinforcement Learning Toybox
 
 A set of games designed for testing deep RL agents.
 
@@ -15,7 +15,7 @@ If you use this code, or otherwise are inspired by our white-box testing approac
 ```
 @inproceedings{foley2018toybox,
   title={{Toybox: Better Atari Environments for Testing Reinforcement Learning Agents}},
-  author={Foley, John J. and Tosch, Emma and Clary, Kaleigh and Jensen, David},
+  author={Foley, John and Tosch, Emma and Clary, Kaleigh and Jensen, David},
   booktitle={{NeurIPS 2018 Workshop on Critiquing and Correcting Trends in Machine Learning}},
   year={2018}
 }
@@ -61,7 +61,4 @@ Tensorflow, OpenAI Gym, OpenCV, and other libraries may or may not break with va
 
 
 # Developing New Games
-
-## Get starting images for reference from ALE
-
-`./scripts/utils/start_images --help` 
+Please contact us if you would like to see new games. We also have a [slack team](openthetoybox.slack.com).
