@@ -61,4 +61,4 @@ Tensorflow, OpenAI Gym, OpenCV, and other libraries may or may not break with va
 
 
 # Developing New Games
-Please contact us if you would like to see new games. We also have a [slack team](openthetoybox.slack.com).
+Please contact us if you would like to see new games. We also have a [slack team](http://openthetoybox.slack.com).
