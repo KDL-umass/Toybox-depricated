@@ -6,3 +6,4 @@ set -eu
 rustup target add wasm32-unknown-unknown
 cargo +nightly install wasm-bindgen-cli
 
+cd html && npm install
