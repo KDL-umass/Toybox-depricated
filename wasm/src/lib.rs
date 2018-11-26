@@ -8,7 +8,6 @@ use cfg_if::cfg_if;
 use wasm_bindgen::prelude::*;
 
 use toybox::graphics::{GrayscaleBuffer, ImageBuffer};
-use toybox::queries;
 use toybox::{Input, Simulation, State};
 
 cfg_if! {
