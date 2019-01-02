@@ -63,4 +63,4 @@ Compile code and dependencies (takes a while the first time) in release mode.
 `cargo build --release`
 
 # Developing New Games
-Please contact us if you would like to see new games. We also have a [slack team](http://openthetoybox.slack.com).
+Please contact us if you would like to see new games! We also have a [slack team](http://openthetoybox.slack.com). Since Slack doesn't allow people to request access to teams at this time, we ask that you sign up using a [Google form](https://goo.gl/forms/msCqmAQdSWVdWoRk2). 
