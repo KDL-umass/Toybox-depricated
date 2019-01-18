@@ -10,7 +10,7 @@ This is the public release repository. It contains:
 
 The current release *does not* contain the testing framework, nor the tests themselves. We will release the testing framework, tests, and a larger suite of games upon acceptance as an archival, peer-reviewed venue (i.e., conference proceedings or journal publication).
 
-If you use this code, or otherwise are inspired by our white-box testing approach, please cite our [NeurIPS workshop paper](pubs/foley2018toybox.pdf):
+If you use this code, or otherwise are inspired by our white-box testing approach, please cite our [NeurIPS Systems for ML workshop paper](pubs/foley2018toybox.pdf):
 
 ```
 @inproceedings{foley2018toybox,
